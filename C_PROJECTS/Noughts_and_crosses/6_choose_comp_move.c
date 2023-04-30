@@ -19,6 +19,8 @@
 */
 int counter=0, c_move, start=0;
 int comp_moves[4] = {0};
+int c_row=0, c_col=0;
+extern int inputs[SIZE][SIZE];
 
 void choose_computer_move(char board[SIZE][SIZE]) {
     srand(start++);

@@ -7,6 +7,8 @@
 * terminate the loop
 */
 
+extern int c_row, c_col;
+
 int play_game(char board[SIZE][SIZE])
 {
     initialise_board(board);

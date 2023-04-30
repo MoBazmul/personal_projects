@@ -1,6 +1,5 @@
 #ifndef NOUGHTS_H
 #define NOUGHTS_H
-#endif
 
 /*definition of libraries needed by the source code*/
 #include <stdio.h>
@@ -13,16 +12,12 @@
 #define true 1
 #define false 0
 
-/*definition of a mapping to the actual board*/
-int inputs[SIZE][SIZE] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-
-/*definition of external variables*/
-int c_row=0, c_col=0;
-
 /*definition of external functions*/
 void draw_board(char board[SIZE][SIZE]);
 void welcome(char board[SIZE][SIZE]);
 void initialise_board(char board[SIZE][SIZE]);
+void get_player_move(char board[SIZE][SIZE]);
+void choose_computer_move(char board[SIZE][SIZE]);
 bool check_element(int *array, int elem);
 bool check_win(char board[SIZE][SIZE]);
 bool check_for_draw(char board[SIZE][SIZE]);
@@ -37,4 +32,6 @@ struct score {
     char *player;
     int score;
 };
+
+#endif
 

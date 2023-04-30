@@ -11,6 +11,8 @@
 * if the player move is less than 1 and greater than 9 recall the function
 */
 
+int inputs[SIZE][SIZE] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+
 void get_player_move(char board[SIZE][SIZE])
 {
     int p_move;
