@@ -9,8 +9,8 @@
 
 ## Let us learn together, CORRECT any mistakes you encounter in the program and comment on code in my Github account
 
- # HAPPY_CODING
- # ALX
- # DO_HARD_THINGS
- # COHORT_13
+# # HAPPY_CODING
+# # ALX
+# # DO_HARD_THINGS
+# # COHORT_13
 
