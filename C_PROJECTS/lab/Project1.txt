@@ -1,0 +1,22 @@
+Script started on 2024-02-01 21:00:37+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="88" LINES="39"]
+[?2004h]0;mohammed@mobazmul: ~/Desktop/lab[01;32mmohammed@mobazmul[00m:[01;34m~/Desktop/lab[00m$ ./tests
+[?2004l
+------------------------ Addition -----------------------
+All Test Cases Passed!
+
+
+--------------------- Multiplication ---------------------
+All Test Cases Passed!
+
+
+--------------------- Reverse String ---------------------
+All Test Cases Passed!
+
+
+--------------------- Compare Strings --------------------
+All Test Cases Passed!
+
+[?2004h]0;mohammed@mobazmul: ~/Desktop/lab[01;32mmohammed@mobazmul[00m:[01;34m~/Desktop/lab[00m$ exit
+[?2004lexit
+
+Script done on 2024-02-01 21:00:52+03:00 [COMMAND_EXIT_CODE="0"]
