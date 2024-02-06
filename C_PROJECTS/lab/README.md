@@ -1,4 +1,4 @@
-#LAB1 - C CORE CONCEPTS
+# LAB1 - C CORE CONCEPTS
 
 ## Author
 1. MoBazmul
