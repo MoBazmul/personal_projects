@@ -1,8 +1,7 @@
                 # Lab2 - Memory And Structures
 
 ## Authors
-1. 
-2.
+1. MoBazmul 
 
 This is a C program that implements an in-memory database for storing records of products. The program allows users to add records, 
 delete records, print all records, print the number of records, print the size of the database, and print the number of accesses to 
