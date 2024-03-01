@@ -1,0 +1,110 @@
+Script started on 2024-02-25 08:25:56+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="160" LINES="35"]
+[?2004h]0;mohammed@mobazmul: ~/Desktop/lab2[01;32mmohammed@mobazmul[00m:[01;34m~/Desktop/lab2[00m$ ./tests
+[?2004l
+Enter Store ID: 1
+Enter Product Name: Motherboard
+Enter Shelf ID: shelf001
+Enter Street Address: Address1
+Enter Zip Code: 98244
+	----------Add record test passed.-----------
+
+	-----------Delete record test passed.-----------
+
+	Printing all records:
+
+	Record 1
+Store ID: 1
+Product Name: Motherboard
+Shelf ID: Shelf003
+Street Address: Mombasa
+Zip Code: 80100
+
+	Record 2
+Store ID: 2
+Product Name: Monitor
+Shelf ID: Shelf010
+Street Address: Nakuru
+Zip Code: 98200
+
+	Record 3
+Store ID: 3
+Product Name: Keyboard
+Shelf ID: Shelf008
+Street Address: Kisumu
+Zip Code: 78390
+
+	Record 4
+Store ID: 4
+Product Name: Mouse
+Shelf ID: Shelf013
+Street Address: Nakuru
+Zip Code: 98200
+
+	Record 5
+Store ID: 5
+Product Name: RAM
+Shelf ID: Shelf023
+Street Address: Naivasha
+Zip Code: 88900
+
+	Record 6
+Store ID: 6
+Product Name: Charger
+Shelf ID: Shelf015
+Street Address: Mombasa
+Zip Code: 80100
+	---------Print All Records Test passed successfully.-----------
+
+	----------Print number of records test passed.----------
+
+	----------Print database size test passed.-----------
+
+	Record 1
+Store ID: 1
+Product Name: Motherboard
+Shelf ID: Shelf003
+Street Address: Mombasa
+Zip Code: 80100
+
+	Record 2
+Store ID: 2
+Product Name: Monitor
+Shelf ID: Shelf010
+Street Address: Nakuru
+Zip Code: 98200
+
+	Record 3
+Store ID: 3
+Product Name: Keyboard
+Shelf ID: Shelf008
+Street Address: Kisumu
+Zip Code: 78390
+
+	Record 4
+Store ID: 4
+Product Name: Mouse
+Shelf ID: Shelf013
+Street Address: Nakuru
+Zip Code: 98200
+
+	Record 5
+Store ID: 5
+Product Name: RAM
+Shelf ID: Shelf023
+Street Address: Naivasha
+Zip Code: 88900
+
+	Record 6
+Store ID: 6
+Product Name: Charger
+Shelf ID: Shelf015
+Street Address: Mombasa
+Zip Code: 80100
+Size of Records: 5
+
+	-----------Print number of accesses test passed.-----------
+All tests passed successfully.
+[?2004h]0;mohammed@mobazmul: ~/Desktop/lab2[01;32mmohammed@mobazmul[00m:[01;34m~/Desktop/lab2[00m$ [K]0;mohammed@mobazmul: ~/Desktop/lab2[01;32mmohammed@mobazmul[00m:[01;34m~/Desktop/lab2[00m$ exit
+[?2004lexit
+
+Script done on 2024-02-25 08:27:21+03:00 [COMMAND_EXIT_CODE="0"]
