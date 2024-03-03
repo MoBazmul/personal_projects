@@ -20,6 +20,7 @@ void recordsCount(int numberOfRecords);
 long unsigned int sizeOfDatabase(int numberOfRecords);
 int numberOfDbAccess(int numAccess);
 
+
 /**
  * TESTS
 */

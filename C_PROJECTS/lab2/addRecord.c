@@ -8,12 +8,10 @@
  * return: void
 */
 
-void addRecord(details **records, int *numberOfRecords)
-{
+void addRecord(details **records, int *numberOfRecords) {
     (*numberOfRecords)++;
-    *records = malloc(sizeof(details) * (*numberOfRecords));
-
-    if(*records == NULL)
+    *records = realloc(*records, sizeof(details) * (*numberOfRecords));
+    if (*records == NULL)
         exit(EXIT_FAILURE);
 
     details *newEntry = createRecord();
@@ -24,11 +22,10 @@ void addRecord(details **records, int *numberOfRecords)
     scanf("%s", newEntry[*numberOfRecords - 1].productName);
     printf("Enter Shelf ID: ");
     scanf("%s", newEntry[*numberOfRecords - 1].shelfID);
-    printf("Enter Street Address: ");
+    printf("Enter Address: ");
     scanf("%s", newEntry[*numberOfRecords - 1].address);
     printf("Enter Zip Code: ");
     scanf("%s", newEntry[*numberOfRecords - 1].zip);
 
-    (*records)[*numberOfRecords - 1] = *newEntry;
+    (*records)[*numberOfRecords - 1] = newEntry[*numberOfRecords - 1];
 }
-

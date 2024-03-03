@@ -1,5 +1,5 @@
-#include "lab.h"
 #include "initDB.h"
+#include "lab.h"
 #include <assert.h>
 
 void test_addRecord(details *records, int *numberOfRecords) 

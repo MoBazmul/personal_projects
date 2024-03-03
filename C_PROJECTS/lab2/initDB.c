@@ -21,7 +21,7 @@ void initializeDB(details **records, int *numberOfRecords)
 
     *numberOfRecords = sizeof(initialData) / sizeof(initialData[0]);
 
-    *records = (details *) malloc(sizeof(details) * (*numberOfRecords));
+    *records = malloc(sizeof(details) * (*numberOfRecords));
     if (*records == NULL)
         exit(EXIT_FAILURE);
     
